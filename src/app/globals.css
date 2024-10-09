@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background: #ffffff;
+  color: #000000;
+}
+
+.menu-item {
+  font-size: 16px;
+}
+
+.menu-active {
+  background-color: #197BBD !important;
+}
+
+.menu-title {
+  color: #197BBD;
+  font-size: 18px;
+}
+
+.nav-container {
+  width: 600px;
+  /* font-size: 43px; */
+}
+
+.navbar {
+  box-shadow: none;
+}
